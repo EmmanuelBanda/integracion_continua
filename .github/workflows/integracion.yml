@@ -37,7 +37,7 @@ jobs:
 
       # Build App
       - name: Build App
-        run: npm run build_prod
+        run: npm run build:prod
 
       #Deploy App
       - name: Deploy App
